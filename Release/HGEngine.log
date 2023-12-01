@@ -1,0 +1,61 @@
+﻿빌드 시작: 2012-11-19 오후 11:32:54
+     1>2 노드의 "C:\Documents and Settings\Administrator\바탕 화면\BattleBridge\HGEngine.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\HGEngine.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Administrator\바탕 화면\BattleBridge\Release\HGEngine.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\HGEngine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Administrator\바탕 화면\BattleBridge\Release\HGEngine.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Administrator\바탕 화면\BattleBridge\Release\HGEngine.lib" /MACHINE:X86 Release\cFont.obj
+         Release\cHelp.obj
+         Release\cLose.obj
+         Release\cMain.obj
+         Release\cStart.obj
+         Release\cWin.obj
+         Release\cApplication.obj
+         Release\cDirectApplication.obj
+         Release\cValStorage.obj
+         Release\cIXAudio2.obj
+         Release\cSoundManager.obj
+         Release\cSourceVoice.obj
+         Release\WaveFile.obj
+         Release\cTexManager.obj
+         Release\cTexture.obj
+         Release\cDirectInput.obj
+         Release\Logger.obj
+         Release\cUnit.obj
+         Release\cArcher.obj
+         Release\cCastle.obj
+         Release\cColdWizard.obj
+         Release\cDefender.obj
+         Release\cEliteArcher.obj
+         Release\cFireMagician.obj
+         Release\cMagician.obj
+         Release\cSniper.obj
+         Release\cSwordmaster.obj
+         Release\cWarrior.obj
+         Release\cEnemyArcher.obj
+         Release\cEnemyCastle.obj
+         Release\cEnemyColdWizard.obj
+         Release\cEnemyDefender.obj
+         Release\cEnemyEliteArcher.obj
+         Release\cEnemyFireMagician.obj
+         Release\cEnemyMagician.obj
+         Release\cEnemySniper.obj
+         Release\cEnemySwordmaster.obj
+         Release\cEnemyWarrior.obj
+         Release\cSceneManager.obj
+         Release\main.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         HGEngine.vcxproj -> C:\Documents and Settings\Administrator\바탕 화면\BattleBridge\Release\HGEngine.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\Administrator\바탕 화면\BattleBridge\Release\HGEngine.exe;#1" /manifest Release\HGEngine.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Release\HGEngine.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\HGEngine.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Documents and Settings\Administrator\바탕 화면\BattleBridge\HGEngine.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:29.18

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3E1A9142-9C5C-4FEA-BAA2-DF6FAC163F0B}</ProjectGuid>
+    <RootNamespace>HGEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx10d.lib;d3dx9d.lib;dxerr.lib;dxguid.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cFont.cpp" />
+    <ClCompile Include="cHelp.cpp" />
+    <ClCompile Include="cLose.cpp" />
+    <ClCompile Include="cMain.cpp" />
+    <ClCompile Include="cStart.cpp" />
+    <ClCompile Include="cWin.cpp" />
+    <ClCompile Include="cApplication.cpp" />
+    <ClCompile Include="cDirectApplication.cpp" />
+    <ClCompile Include="cValStorage.cpp" />
+    <ClCompile Include="cIXAudio2.cpp" />
+    <ClCompile Include="cSoundManager.cpp" />
+    <ClCompile Include="cSourceVoice.cpp" />
+    <ClCompile Include="WaveFile.cpp" />
+    <ClCompile Include="cTexManager.cpp" />
+    <ClCompile Include="cTexture.cpp" />
+    <ClCompile Include="cDirectInput.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="cUnit.cpp" />
+    <ClCompile Include="cArcher.cpp" />
+    <ClCompile Include="cCastle.cpp" />
+    <ClCompile Include="cColdWizard.cpp" />
+    <ClCompile Include="cDefender.cpp" />
+    <ClCompile Include="cEliteArcher.cpp" />
+    <ClCompile Include="cFireMagician.cpp" />
+    <ClCompile Include="cMagician.cpp" />
+    <ClCompile Include="cSniper.cpp" />
+    <ClCompile Include="cSwordmaster.cpp" />
+    <ClCompile Include="cWarrior.cpp" />
+    <ClCompile Include="cEnemyArcher.cpp" />
+    <ClCompile Include="cEnemyCastle.cpp" />
+    <ClCompile Include="cEnemyColdWizard.cpp" />
+    <ClCompile Include="cEnemyDefender.cpp" />
+    <ClCompile Include="cEnemyEliteArcher.cpp" />
+    <ClCompile Include="cEnemyFireMagician.cpp" />
+    <ClCompile Include="cEnemyMagician.cpp" />
+    <ClCompile Include="cEnemySniper.cpp" />
+    <ClCompile Include="cEnemySwordmaster.cpp" />
+    <ClCompile Include="cEnemyWarrior.cpp" />
+    <ClCompile Include="cSceneManager.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cFont.h" />
+    <ClInclude Include="cHelp.h" />
+    <ClInclude Include="cLose.h" />
+    <ClInclude Include="cMain.h" />
+    <ClInclude Include="cStart.h" />
+    <ClInclude Include="cWin.h" />
+    <ClInclude Include="cApplication.h" />
+    <ClInclude Include="cDirectApplication.h" />
+    <ClInclude Include="cValStorage.h" />
+    <ClInclude Include="cIXAudio2.h" />
+    <ClInclude Include="cSoundManager.h" />
+    <ClInclude Include="cSourceVoice.h" />
+    <ClInclude Include="WaveFile.h" />
+    <ClInclude Include="cTexManager.h" />
+    <ClInclude Include="cTexture.h" />
+    <ClInclude Include="cDirectInput.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Macro.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="cUnit.h" />
+    <ClInclude Include="cArcher.h" />
+    <ClInclude Include="cCastle.h" />
+    <ClInclude Include="cColdWizard.h" />
+    <ClInclude Include="cDefender.h" />
+    <ClInclude Include="cEliteArcher.h" />
+    <ClInclude Include="cFireMagician.h" />
+    <ClInclude Include="cMagician.h" />
+    <ClInclude Include="cSniper.h" />
+    <ClInclude Include="cSwordmaster.h" />
+    <ClInclude Include="cWarrior.h" />
+    <ClInclude Include="cEnemyArcher.h" />
+    <ClInclude Include="cEnemyCastle.h" />
+    <ClInclude Include="cEnemyColdWizard.h" />
+    <ClInclude Include="cEnemyDefender.h" />
+    <ClInclude Include="cEnemyEliteArcher.h" />
+    <ClInclude Include="cEnemyFireMagician.h" />
+    <ClInclude Include="cEnemyMagician.h" />
+    <ClInclude Include="cEnemySniper.h" />
+    <ClInclude Include="cEnemySwordmaster.h" />
+    <ClInclude Include="cEnemyWarrior.h" />
+    <ClInclude Include="cSceneManager.h" />
+    <ClInclude Include="SceneNode.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

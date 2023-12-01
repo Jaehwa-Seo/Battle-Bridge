@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{8e4aecf5-a303-4e99-ab9a-a65a38c89c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{95d9def1-5825-4361-9d9c-7d8630dc79e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Application">
+      <UniqueIdentifier>{c5e3e748-f33e-4900-a569-7f868ed145d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine\Management\Sound">
+      <UniqueIdentifier>{e62ec82e-5220-42f6-82ec-6c7e8c81e9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\Texture">
+      <UniqueIdentifier>{67dfd9ca-dbcf-4027-bf10-1ada7276bea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Management\Input">
+      <UniqueIdentifier>{c37b3de0-e475-42ab-a812-00dad2025195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assist">
+      <UniqueIdentifier>{1c36a144-3c5f-4fdd-b7d4-0b5c65846f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllUnit">
+      <UniqueIdentifier>{fac88b65-d902-4af8-9ded-09309a2f5bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllUnit\MyUnit">
+      <UniqueIdentifier>{2dd719aa-29fa-4c18-98a8-48fce01e26ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllUnit\EnemyUnit">
+      <UniqueIdentifier>{ea7debc7-6350-445e-bce3-d420c757bc69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{a6d893f1-030f-476b-91b7-a66f07769a55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cHelp.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cLose.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cMain.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cStart.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cWin.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cApplication.cpp">
+      <Filter>Engine\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="cDirectApplication.cpp">
+      <Filter>Engine\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="cValStorage.cpp">
+      <Filter>Engine\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="cIXAudio2.cpp">
+      <Filter>Engine\Management\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>Engine\Management\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="cSourceVoice.cpp">
+      <Filter>Engine\Management\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveFile.cpp">
+      <Filter>Engine\Management\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="cTexManager.cpp">
+      <Filter>Engine\Management\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cTexture.cpp">
+      <Filter>Engine\Management\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cDirectInput.cpp">
+      <Filter>Engine\Management\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Engine\Assist</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit.cpp">
+      <Filter>AllUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cArcher.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cCastle.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cColdWizard.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cDefender.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEliteArcher.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cFireMagician.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cMagician.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cSniper.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cSwordmaster.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cWarrior.cpp">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyArcher.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyCastle.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyColdWizard.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyDefender.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyEliteArcher.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyFireMagician.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyMagician.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemySniper.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemySwordmaster.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyWarrior.cpp">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="cFont.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cHelp.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cLose.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cMain.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cStart.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cWin.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cApplication.h">
+      <Filter>Engine\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="cDirectApplication.h">
+      <Filter>Engine\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="cValStorage.h">
+      <Filter>Engine\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="cIXAudio2.h">
+      <Filter>Engine\Management\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>Engine\Management\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="cSourceVoice.h">
+      <Filter>Engine\Management\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveFile.h">
+      <Filter>Engine\Management\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="cTexManager.h">
+      <Filter>Engine\Management\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cTexture.h">
+      <Filter>Engine\Management\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cDirectInput.h">
+      <Filter>Engine\Management\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Engine\Assist</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Engine\Assist</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Engine\Assist</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit.h">
+      <Filter>AllUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cArcher.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cCastle.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cColdWizard.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cDefender.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEliteArcher.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cFireMagician.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cMagician.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cSniper.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cSwordmaster.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cWarrior.h">
+      <Filter>AllUnit\MyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyArcher.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyCastle.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyColdWizard.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyDefender.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyEliteArcher.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyFireMagician.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyMagician.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemySniper.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemySwordmaster.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyWarrior.h">
+      <Filter>AllUnit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cFont.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

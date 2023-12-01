@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HGEngine">
+</Property><Property Name="솔루션 파일" Value="C:\Documents and Settings\Administrator\바탕 화면\232_BattleBridge\HGEngine.sln">
+</Property><Property Name="사용자 옵션 파일" Value="C:\Documents and Settings\Administrator\바탕 화면\232_BattleBridge\HGEngine.suo">
+</Property><Property Name="Date" Value="2012년 10월 29일 월요일">
+</Property><Property Name="Time" Value="오후 23:43">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="HGEngine.sln" Description="파일을 C:\Documents and Settings\Administrator\바탕 화면\232_BattleBridge\HGEngine.sln.old(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="HGEngine.suo" Description="파일을 C:\Documents and Settings\Administrator\바탕 화면\232_BattleBridge\HGEngine.suo.old(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="HGEngine" Source="HGEngine.vcproj" Description="Converting project file 'C:\Documents and Settings\Administrator\바탕 화면\232_BattleBridge\HGEngine.vcproj'.">
+</Event><Event ErrorLevel="1" Project="HGEngine" Source="HGEngine.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="HGEngine" Source="HGEngine.vcproj" Description="Done converting to new project file 'C:\Documents and Settings\Administrator\바탕 화면\232_BattleBridge\HGEngine.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="HGEngine" Source="HGEngine.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HGEngine.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="HGEngine.sln" Description="Converted">
+</Event></UpgradeLog>

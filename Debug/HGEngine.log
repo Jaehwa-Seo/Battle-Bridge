@@ -1,0 +1,60 @@
+﻿빌드 시작: 2012-11-30 오후 1:24:26
+     1>2 노드의 "E:\디콘\배틀브릿지\Battle Bridge2\HGEngine.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\HGEngine.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cMain.cpp
+         cMain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\디콘\배틀브릿지\Battle Bridge2\Debug\HGEngine.exe" /NOLOGO d3d9.lib d3dx10d.lib d3dx9d.lib dxerr.lib dxguid.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HGEngine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\디콘\배틀브릿지\Battle Bridge2\Debug\HGEngine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\디콘\배틀브릿지\Battle Bridge2\Debug\HGEngine.lib" /MACHINE:X86 Debug\cFont.obj
+         Debug\cHelp.obj
+         Debug\cLose.obj
+         Debug\cMain.obj
+         Debug\cStart.obj
+         Debug\cWin.obj
+         Debug\cApplication.obj
+         Debug\cDirectApplication.obj
+         Debug\cValStorage.obj
+         Debug\cIXAudio2.obj
+         Debug\cSoundManager.obj
+         Debug\cSourceVoice.obj
+         Debug\WaveFile.obj
+         Debug\cTexManager.obj
+         Debug\cTexture.obj
+         Debug\cDirectInput.obj
+         Debug\Logger.obj
+         Debug\cUnit.obj
+         Debug\cArcher.obj
+         Debug\cCastle.obj
+         Debug\cColdWizard.obj
+         Debug\cDefender.obj
+         Debug\cEliteArcher.obj
+         Debug\cFireMagician.obj
+         Debug\cMagician.obj
+         Debug\cSniper.obj
+         Debug\cSwordmaster.obj
+         Debug\cWarrior.obj
+         Debug\cEnemyArcher.obj
+         Debug\cEnemyCastle.obj
+         Debug\cEnemyColdWizard.obj
+         Debug\cEnemyDefender.obj
+         Debug\cEnemyEliteArcher.obj
+         Debug\cEnemyFireMagician.obj
+         Debug\cEnemyMagician.obj
+         Debug\cEnemySniper.obj
+         Debug\cEnemySwordmaster.obj
+         Debug\cEnemyWarrior.obj
+         Debug\cSceneManager.obj
+         Debug\main.obj
+         LINK : E:\디콘\배틀브릿지\Battle Bridge2\Debug\HGEngine.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+         HGEngine.vcxproj -> E:\디콘\배틀브릿지\Battle Bridge2\Debug\HGEngine.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\디콘\배틀브릿지\Battle Bridge2\Debug\HGEngine.exe;#1" /manifest Debug\HGEngine.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\HGEngine.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\HGEngine.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\디콘\배틀브릿지\Battle Bridge2\HGEngine.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:15.47
